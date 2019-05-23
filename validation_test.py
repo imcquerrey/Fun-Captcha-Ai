@@ -22,7 +22,7 @@ def prepare(filepath):
 	new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))
 	# Returning the new array for the ai to check
 	return new_array.reshape(-1, IMG_SIZE, IMG_SIZE, 1)
-#, '1.png', '2.png', '3.png', '4.png'
+
 # Adding all picture file names to the list that the ai will be tested against
 pacs = ['0.png', '1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']
 
